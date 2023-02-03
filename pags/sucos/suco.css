@@ -1,0 +1,13 @@
+body {
+    text-align: center;
+}
+
+.img, .nome, .ingredientes, .bt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 10px;
+    border: solid 5px;
+}
