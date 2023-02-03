@@ -1,0 +1,53 @@
+body {
+    text-align: center;
+    background-image: url(midia/fundo.jpg);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+
+}
+
+.bt2 {
+    border: 1px;
+}
+
+.img, .nome, .ingredientes, .bt {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+img {
+    border-radius: 10px;
+    border: solid 5px;
+}
+
+button {
+    position: relative;
+    padding: 1em;
+    color: black;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-shadow: 0 0 0.5em rgb(0, 0, 0);
+    background-color: green;
+    border: solid 0.25em green;
+    border-radius: 1em;
+    outline: none;
+    cursor: pointer;
+    transition: all 0.3em;
+    width: 100px;
+  }
+  
+  button:hover {
+    color: black;
+    background-color: greenyellow;
+  }
+  
+  button:active {
+    box-shadow: 0 0 0.6em 0.25em green;
+  }
+  
+  .botao {
+  border-radius: 5px;
+  }
