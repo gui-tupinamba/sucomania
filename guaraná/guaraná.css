@@ -8,7 +8,7 @@ body {
     border: 1px;
 }
 
-.img, .nome, .ingredientes, .bt {
+.img, .nome, .desc, .bt {
     display: flex;
     justify-content: space-evenly;
 }
