@@ -10,7 +10,7 @@ body {
 
 .img, .nome, .desc, .bt {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
 }
 
 img {
