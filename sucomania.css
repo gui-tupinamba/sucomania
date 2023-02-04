@@ -1,19 +1,11 @@
 body {
   background-image: url(midia/fundo.jpg);
-  color: white;
+  color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 0px;
-  margin: 0px;
 }
 
-.div1 {
+.div {
   text-align: center;
-}
-
-.div2 {
-  text-align: center;
-  padding: 5px;
-  margin: 10px;
 }
 
 h1 {
@@ -32,15 +24,15 @@ h1 {
 
 button {
   position: relative;
-  padding: 1em;
   color: black;
-  font-size: 10px;
+  font-size: 25px;
   font-weight: bold;
   text-transform: uppercase;
-  text-shadow: 0 0 0.5em black;
+  text-shadow: 1px 1px 1px;
+  font-weight: bold;
   background-color: green;
   border: solid 0.25em green;
-  border-radius: 1em;
+  border-radius: 50px;
   outline: none;
   cursor: pointer;
   transition: all 0.3em;
@@ -55,8 +47,4 @@ button:hover {
 
 button:active {
   box-shadow: 0 0 0.6em 0.25em green;
-}
-
-.botao {
-border-radius: 5px;
 }
