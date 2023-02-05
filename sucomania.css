@@ -10,8 +10,9 @@ h1 {
 }
 
 img {
-  height: 250px;
-  width: 250px;
+  height: 200px;
+  width: 200px;
+  animation: infinite linear .5s alternate;
 }
 
 button {
@@ -39,4 +40,11 @@ button:hover {
 
 button:active {
   box-shadow: 0 0 0.6em 0.25em green;
+}
+
+.a-pulse{
+  -webkit-animation:pulse infinite linear .9s alternate;
+}
+
+@-webkit-keyframes pulse {0%{transform:scale(1)}100%{transform:scale(1.05)}
 }

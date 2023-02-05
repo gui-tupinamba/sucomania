@@ -1,49 +1,60 @@
 body {
-    text-align: center;
-    background-image: url(../midia/fundo.jpg);
-    font-family: Arial, Helvetica, sans-serif;
+  background-image: url(../midia/fundo.jpg);
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.bt2 {
-    border: 1px;
+h1, .div1 {
+text-align: center;
 }
 
-.img, .nome, .desc, .bt {
-    display: flex;
-    justify-content: space-between;
+.img1 {
+  border-radius: 10px;
+  border: solid 5px;
+  height: 100px;
+  width: 100px;
 }
 
-img {
-    border-radius: 10px;
-    border: solid 5px;
+.img2 {
+height: 100px;
+width: 100px;
+}
+
+.icon {
+height: 20px;
+width: 25px;
 }
 
 button {
-    position: relative;
-    padding: 1em;
-    color: black;
-    font-size: 10px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-shadow: 0 0 0.5em rgb(0, 0, 0);
-    background-color: green;
-    border: solid 0.25em green;
-    border-radius: 1em;
-    outline: none;
-    cursor: pointer;
-    transition: all 0.3em;
-    width: 100px;
-  }
-  
-  button:hover {
-    color: black;
-    background-color: greenyellow;
-  }
-  
-  button:active {
-    box-shadow: 0 0 0.6em 0.25em green;
-  }
-  
-  .botao {
-  border-radius: 5px;
-  }
+  padding: 1em;
+  color: black;
+  font-size: 10px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-shadow: 0 0 0.5em rgb(0, 0, 0);
+  background-color: green;
+  border: solid 0.25em green;
+  border-radius: 1em;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.3em;
+  width: 100px;
+}
+
+button:hover {
+  color: black;
+  background-color: greenyellow;
+}
+
+button:active {
+  box-shadow: 0 0 0.6em 0.25em green;
+}
+
+.sidebar {
+  grid-area: sidebar;
+  display: flex;
+  flex-direction: row;
+}
+
+.back {
+  text-align: left;
+}

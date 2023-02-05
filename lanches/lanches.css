@@ -3,7 +3,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1, footer {
+h1, .div1 {
   text-align: center;
 }
 
@@ -12,6 +12,11 @@ h1, footer {
     border: solid 5px;
     height: 100px;
     width: 100px;
+}
+
+.img2 {
+  height: 100px;
+  width: 100px;
 }
 
 .icon {
@@ -43,13 +48,13 @@ button {
   button:active {
     box-shadow: 0 0 0.6em 0.25em green;
   }
-  
-  .botao {
-  border-radius: 5px;
-  }
 
   .sidebar {
     grid-area: sidebar;
     display: flex;
     flex-direction: row;
+  }
+
+  .back {
+    text-align: left;
   }
