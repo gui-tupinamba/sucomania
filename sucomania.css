@@ -19,16 +19,14 @@ button {
   position: relative;
   color: black;
   font-size: 25px;
-  font-weight: bold;
   text-transform: uppercase;
   text-shadow: 1px 1px 1px;
   font-weight: bold;
   background-color: green;
-  border: solid 0.25em green;
+  border: solid 5px green;
   border-radius: 50px;
   outline: none;
   cursor: pointer;
-  transition: all 0.3em;
   height: 50px;
   width: 250px;
 }
