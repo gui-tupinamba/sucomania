@@ -58,3 +58,9 @@ button:active {
 .back {
   text-align: left;
 }
+
+.valor {
+  border: solid 2px black;
+  font-size: 20px;
+  color: #F5E9DF;
+}
