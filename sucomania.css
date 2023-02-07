@@ -46,5 +46,6 @@ button:active {
   -webkit-animation:pulse infinite linear .9s alternate;
 }
 
-@-webkit-keyframes pulse {0%{transform:scale(1)}100%{transform:scale(1.05)}
+@-webkit-keyframes pulse {
+  0%{transform:scale(1)}100%{transform:scale(1.05)}
 }
