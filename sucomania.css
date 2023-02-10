@@ -10,8 +10,8 @@ h1 {
 }
 
 img {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 250px;
   animation: infinite linear .5s alternate;
 }
 

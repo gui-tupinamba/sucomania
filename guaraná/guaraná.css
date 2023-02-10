@@ -14,7 +14,7 @@ h1, .div1 {
 }
 
 .img2 {
-  height: 120px;
+  height: 200px;
   width: 150px;
   -webkit-animation:pulse infinite linear .9s alternate;
 }
