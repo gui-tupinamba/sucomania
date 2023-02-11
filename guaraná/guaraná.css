@@ -16,7 +16,7 @@ h1, .div1 {
 .img2 {
   height: 200px;
   width: 150px;
-  -webkit-animation:pulse infinite linear .9s alternate;
+ -webkit-animation:pulse infinite linear .9s alternate;
 }
 
 @-webkit-keyframes pulse {
