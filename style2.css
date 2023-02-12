@@ -32,7 +32,7 @@ li {
 .img2 {
   height: 200px;
   width: 150px;
-  -webkit-animation:pulse infinite linear .9s alternate;
+  animation:pulse infinite linear .9s alternate;
 }
 
 @-webkit-keyframes pulse {
