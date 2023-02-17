@@ -87,3 +87,15 @@ button:active {
   font-size: 25px;
 }
 
+.insta {
+  height: 20px;
+  width: 20px;
+}
+
+.insta_link {
+  color: white;
+}
+
+#insta {
+  text-align: center;
+}

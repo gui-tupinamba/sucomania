@@ -9,7 +9,7 @@ h1 {
   font-size: 23px;
 }
 
-img {
+.logo {
   height: 300px;
   width: 250px;
   animation: infinite linear .5s alternate;
@@ -46,4 +46,17 @@ button:active {
 
 @-webkit-keyframes pulse {
   0%{transform:scale(1)}100%{transform:scale(1.05)}
+}
+
+.insta {
+  height: 20px;
+  width: 20px;
+}
+
+.insta_link {
+  color: white;
+}
+
+#insta {
+  text-align: center;
 }
