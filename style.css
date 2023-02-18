@@ -62,5 +62,6 @@ button:active {
 }
 
 .aviso {
-  font-size: 5px;
+  font-size: 3px;
+  color: red;
 }
