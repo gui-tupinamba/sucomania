@@ -1,3 +1,7 @@
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-image: url(../midia/fundo.jpg);
   font-family: Arial, Helvetica, sans-serif;
